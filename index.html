@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="results.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label>
+            <input type="name" name="Name" id="name" placeholder="Name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="Password" id="password" placeholder="Password" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="3" max="80" required>
+        </div>
+        <div>
+            <label for="date">Birthdate</label>
+            <input type="date" name="date" id="date" min="2022-11-2" max="2023-08-15" required>
+        </div>
+        <div>
+            <b>Gender</b> 
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <label for="rather not say">Rather not say</label>
+            <input type="radio" name="gender" id="rather not say">
+        </div>
+        <div>
+            <b>Why do you want to join</b>
+        </div>
+        <div>
+            <label for="ecommerce">For Ecommerce</label>
+            <input type="checkbox" name="Ecommerce" id="ecommerce">
+        </div>
+        <div>
+            <label for="marketing">For Marketing</label>
+            <input type="checkbox" name="marketing" id="marketing">
+        </div>
+        <div>
+            <label for="production">For Production</label>
+            <input type="checkbox" name="production" id="production">
+        </div>
+        <div>
+            <label for="experience">For Experience</label>
+            <input type="checkbox" name="experience" id="experience">
+        </div>
+        <div>
+            <label for="experience">How many years of experience</label>
+            <select name="Experience" id="experience">
+                <option value="1year">1 year</option>
+                <option value="2years">2 years</option>
+                <option value="4years">4 years</option>
+                <option value="more than 5 years">more than 5 years</option>
+            </select>
+        </div>
+        <div>
+            <label for="bio">Bio</label>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="file">File</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="Url">URL</label>
+            <input type="url" name="Url" id="url">
+        </div>
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
